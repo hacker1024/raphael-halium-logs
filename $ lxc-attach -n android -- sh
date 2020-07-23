@@ -1,0 +1,2 @@
+lxc-attach: cgroups/cgfs.c: lxc_cgroupfs_enter: 1230 No such file or directory - Could not add pid 8280 to cgroup //lxc/android: internal error (couldn't find any writable mountpoint to cgroup filesystem)
+lxc-attach: cgroups/cgfs.c: lxc_cgroupfs_attach: 2562 could not move attached process 8280 to cgroup of container
