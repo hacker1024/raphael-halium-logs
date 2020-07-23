@@ -1,0 +1,2 @@
+lxc-start 20200723044145.325 ERROR    lxc_commands - commands.c:lxc_cmd_stop_callback:647 - Failed to unfreeze container "android"
+lxc-stop 20200723044145.345 ERROR    lxc_commands - commands.c:lxc_cmd_stop:620 - Operation not permitted - Failed to stop container "android"
