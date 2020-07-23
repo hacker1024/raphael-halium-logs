@@ -1,0 +1,223 @@
+      lxc-start 19710308114732.956 WARN     lxc_confile - confile.c:set_config_pivotdir:2346 - lxc.pivotdir is ignored.  It will soon become an error.
+      lxc-start 19710308114732.956 TRACE    lxc_commands - commands.c:lxc_cmd:293 - Connection refused - Command "get_init_pid" failed to connect command socket
+      lxc-start 19710308114732.956 TRACE    lxc_commands - commands.c:lxc_cmd:293 - Connection refused - Command "get_cgroup" failed to connect command socket
+      lxc-start 19710308114732.956 TRACE    lxc_commands - commands.c:lxc_cmd:293 - Connection refused - Command "get_state" failed to connect command socket
+      lxc-start 19710308114732.957 TRACE    lxc_commands - commands.c:lxc_cmd_init:1154 - Creating abstract unix socket "/var/lib/lxc/android/command"
+      lxc-start 19710308114732.957 TRACE    lxc_start - start.c:lxc_init_handler:711 - Unix domain socket 5 for command server is ready
+      lxc-start 19710308114732.957 WARN     lxc_start - start.c:lxc_check_inherited:263 - Inherited fd: 3.
+      lxc-start 19710308114732.957 INFO     lxc_lsm - lsm/lsm.c:lsm_init:47 - LSM security driver nop
+      lxc-start 19710308114732.957 TRACE    lxc_start - start.c:lxc_init:728 - Initialized LSM
+      lxc-start 19710308114732.957 TRACE    lxc_start - start.c:lxc_init:735 - Read seccomp policy
+      lxc-start 19710308114732.957 TRACE    lxc_start - start.c:lxc_serve_state_clients:398 - Set container state to STARTING
+      lxc-start 19710308114732.957 TRACE    lxc_start - start.c:lxc_serve_state_clients:401 - No state clients registered
+      lxc-start 19710308114732.957 TRACE    lxc_start - start.c:lxc_init:743 - set container state to "STARTING"
+      lxc-start 19710308114732.957 TRACE    lxc_start - start.c:lxc_init:796 - Set environment variables
+      lxc-start 19710308114732.957 INFO     lxc_conf - conf.c:run_script_argv:305 - Executing script "/var/lib/lxc/android/pre-start.sh" for container "android", config section "lxc".
+      lxc-start 19710308114732.962 TRACE    lxc_start - start.c:lxc_init:803 - Ran pre-start hooks
+      lxc-start 19710308114732.962 TRACE    lxc_start - start.c:setup_signal_fd:299 - Created signal file descriptor 6
+      lxc-start 19710308114732.962 TRACE    lxc_start - start.c:lxc_init:814 - Set up signal fd
+      lxc-start 19710308114732.963 DEBUG    console - console.c:lxc_console_peer_default:506 - process does not have a controlling terminal
+      lxc-start 19710308114732.964 TRACE    lxc_start - start.c:lxc_init:822 - Created console
+      lxc-start 19710308114732.964 TRACE    lxc_start - start.c:lxc_init:829 - Chowned console
+      lxc-start 19710308114732.964 INFO     lxc_start - start.c:lxc_init:831 - Container "android" is initialized
+      lxc-start 19710308114732.964 DEBUG    lxc_start - start.c:__lxc_start:1773 - Not dropping CAP_SYS_BOOT or watching utmp.
+      lxc-start 19710308114732.964 INFO     lxc_cgroup - cgroups/cgroup.c:cgroup_init:68 - cgroup driver cgroupfs-ng initing for android
+      lxc-start 19710308114732.964 TRACE    lxc_cgfsng - cgroups/cgfsng.c:cgfsng_init:1477 - Running with legacy cgroup layout
+      lxc-start 19710308114732.965 TRACE    lxc_cgfsng - cgroups/cgfsng.c:cg_legacy_filter_and_set_cpus:555 - No isolated cpus detected
+      lxc-start 19710308114732.965 DEBUG    lxc_cgfsng - cgroups/cgfsng.c:cg_legacy_handle_cpuset_hierarchy:741 - "cgroup.clone_children" was already set to "1"
+      lxc-start 19710308114732.966 INFO     lxc_start - start.c:lxc_spawn:1548 - Failed to pin the rootfs for container "android".
+      lxc-start 19710308114732.966 TRACE    lxc_start - start.c:lxc_spawn:1573 - Cloned child process 1465
+      lxc-start 19710308114732.966 INFO     lxc_start - start.c:lxc_spawn:1577 - Cloned CLONE_NEWNS.
+      lxc-start 19710308114732.966 INFO     lxc_start - start.c:lxc_spawn:1577 - Cloned CLONE_NEWPID.
+      lxc-start 19710308114732.966 INFO     lxc_start - start.c:lxc_spawn:1577 - Cloned CLONE_NEWUTS.
+      lxc-start 19710308114732.966 INFO     lxc_start - start.c:lxc_spawn:1577 - Cloned CLONE_NEWIPC.
+      lxc-start 19710308114732.966 INFO     lxc_start - start.c:lxc_spawn:1577 - Cloned CLONE_NEWCGROUP.
+      lxc-start 19710308114732.967 INFO     lxc_cgfsng - cgroups/cgfsng.c:__cg_unified_setup_limits:2730 - Setting limits on the unified cgroup hierarchy is not supported      lxc-start 19710308114732.967 INFO     lxc_start - start.c:do_start:1229 - Unshared CLONE_NEWCGROUP.
+      lxc-start 19710308114732.968 TRACE    lxc_conf - conf.c:remount_all_slave:3178 - Remounted all mount table entries as MS_SLAVE
+      lxc-start 19710308114732.969 DEBUG    storage - storage/storage.c:storage_query:237 - Detected rootfs type "dir"
+      lxc-start 19710308114732.969 DEBUG    lxc_conf - conf.c:lxc_setup_rootfs:1221 - Mounted rootfs "/var/lib/lxc/android/rootfs" onto "/usr/lib/arm-linux-gnueabihf/lxc" with options "(null)".
+      lxc-start 19710308114732.969 INFO     lxc_conf - conf.c:setup_utsname:630 - 'armhf' hostname has been setup
+      lxc-start 19710308114732.969 INFO     lxc_network - network.c:lxc_setup_network_in_child_namespaces:2973 - network has been setup
+      lxc-start 19710308114732.969 TRACE    lxc_network - network.c:lxc_network_send_name_and_ifindex_to_parent:3054 - Sent network device names and ifindeces to parent
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1943 - Mounted "tmpfs" on "/usr/lib/arm-linux-gnueabihf/lxc/dev" with filesystem type "tmpfs"
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1866 - Remounting "/dev/__properties__" on "/usr/lib/arm-linux-gnueabihf/lxc/dev/__properties__" to respect bind or remount options
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1887 - Flags for "/dev/__properties__" were 4098, required extra flags are 2
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1943 - Mounted "/dev/__properties__" on "/usr/lib/arm-linux-gnueabihf/lxc/dev/__properties__" with filesystem type "bind"
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1866 - Remounting "/dev/socket" on "/usr/lib/arm-linux-gnueabihf/lxc/dev/socket" to respect bind or remount options
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1887 - Flags for "/dev/socket" were 4098, required extra flags are 2
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1943 - Mounted "/dev/socket" on "/usr/lib/arm-linux-gnueabihf/lxc/dev/socket" with filesystem type "bind"
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1943 - Mounted "proc" on "/usr/lib/arm-linux-gnueabihf/lxc/proc" with filesystem type "proc"
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1943 - Mounted "sys" on "/usr/lib/arm-linux-gnueabihf/lxc/sys" with filesystem type "sysfs"
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1866 - Remounting "/android/data" on "/usr/lib/arm-linux-gnueabihf/lxc/data" to respect bind or remount options
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1887 - Flags for "/android/data" were 4096, required extra flags are 0
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1897 - Mountflags already were 4096, skipping remount
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1943 - Mounted "/android/data" on "/usr/lib/arm-linux-gnueabihf/lxc/data" with filesystem type "bind"
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1866 - Remounting "/vendor" on "/usr/lib/arm-linux-gnueabihf/lxc/vendor" to respect bind or remount options
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1887 - Flags for "/vendor" were 4097, required extra flags are 1
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1943 - Mounted "/vendor" on "/usr/lib/arm-linux-gnueabihf/lxc/vendor" with filesystem type "bind"
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1866 - Remounting "/mnt" on "/usr/lib/arm-linux-gnueabihf/lxc/mnt" to respect bind or remount options
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1887 - Flags for "/mnt" were 4097, required extra flags are 1
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1943 - Mounted "/mnt" on "/usr/lib/arm-linux-gnueabihf/lxc/mnt" with filesystem type "bind"
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1866 - Remounting "/android/efs" on "/usr/lib/arm-linux-gnueabihf/lxc/efs" to respect bind or remount options
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1887 - Flags for "/android/efs" were 4097, required extra flags are 1
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:mount_entry:1943 - Mounted "/android/efs" on "/usr/lib/arm-linux-gnueabihf/lxc/efs" with filesystem type "bind"
+      lxc-start 19710308114732.970 INFO     lxc_conf - conf.c:mount_file_entries:2238 - Set up mount entries
+      lxc-start 19710308114732.970 DEBUG    lxc_conf - conf.c:lxc_setup_ttydir_console:1560 - Created directory for console and tty devices at "/usr/lib/arm-linux-gnueabihf/lxc/dev/lxc"
+      lxc-start 19710308114732.971 DEBUG    lxc_conf - conf.c:lxc_setup_ttydir_console:1646 - mounted "/dev/pts/2" onto "/usr/lib/arm-linux-gnueabihf/lxc/dev/lxc/console"      lxc-start 19710308114732.971 DEBUG    lxc_conf - conf.c:lxc_setup_ttydir_console:1666 - console has been setup under "lxc/console" and symlinked to "/usr/lib/arm-linux-gnueabihf/lxc/dev/console"
+      lxc-start 19710308114732.971 INFO     lxc_utils - utils.c:lxc_mount_proc_if_needed:1704 - I am 1, /proc/self points to "1"
+      lxc-start 19710308114732.972 DEBUG    lxc_conf - conf.c:setup_rootfs_pivot_root:987 - pivot_root syscall to '/usr/lib/arm-linux-gnueabihf/lxc' successful
+      lxc-start 19710308114732.972 DEBUG    lxc_conf - conf.c:setup_pivot_root:1338 - finished pivot root
+      lxc-start 19710308114732.972 DEBUG    lxc_conf - conf.c:lxc_setup_devpts:1418 - mount new devpts instance with options "gid=5,newinstance,ptmxmode=0666,mode=0620,max=1024"
+      lxc-start 19710308114732.972 DEBUG    lxc_conf - conf.c:lxc_setup_devpts:1438 - created dummy "/dev/ptmx" file as bind mount target
+      lxc-start 19710308114732.972 DEBUG    lxc_conf - conf.c:lxc_setup_devpts:1443 - bind mounted "/dev/pts/ptmx" to "/dev/ptmx"
+      lxc-start 19710308114732.972 DEBUG    lxc_conf - conf.c:lxc_allocate_ttys:824 - allocated pty "/dev/pts/0" with master fd 10 and slave fd 13
+      lxc-start 19710308114732.972 DEBUG    lxc_conf - conf.c:lxc_allocate_ttys:824 - allocated pty "/dev/pts/1" with master fd 14 and slave fd 15
+      lxc-start 19710308114732.972 DEBUG    lxc_conf - conf.c:lxc_allocate_ttys:824 - allocated pty "/dev/pts/2" with master fd 16 and slave fd 17
+      lxc-start 19710308114732.972 DEBUG    lxc_conf - conf.c:lxc_allocate_ttys:824 - allocated pty "/dev/pts/3" with master fd 18 and slave fd 19
+      lxc-start 19710308114732.972 INFO     lxc_conf - conf.c:lxc_allocate_ttys:844 - finished allocating 4 pts devices
+      lxc-start 19710308114732.972 TRACE    lxc_conf - conf.c:lxc_send_ttys_to_parent:887 - Send pty "/dev/pts/0" with master fd 10 and slave fd 13 to parent
+      lxc-start 19710308114732.972 TRACE    lxc_conf - conf.c:lxc_send_ttys_to_parent:887 - Send pty "/dev/pts/1" with master fd 14 and slave fd 15 to parent
+      lxc-start 19710308114732.972 TRACE    lxc_conf - conf.c:lxc_send_ttys_to_parent:887 - Send pty "/dev/pts/2" with master fd 16 and slave fd 17 to parent
+      lxc-start 19710308114732.972 TRACE    lxc_conf - conf.c:lxc_send_ttys_to_parent:887 - Send pty "/dev/pts/3" with master fd 18 and slave fd 19 to parent
+      lxc-start 19710308114732.972 TRACE    lxc_conf - conf.c:lxc_send_ttys_to_parent:894 - Sent 4 ttys to parent
+      lxc-start 19710308114732.972 DEBUG    lxc_conf - conf.c:lxc_setup_ttys:748 - bind mounted "/dev/pts/0" onto "/dev/tty1"
+      lxc-start 19710308114732.973 DEBUG    lxc_conf - conf.c:lxc_setup_ttys:748 - bind mounted "/dev/pts/1" onto "/dev/tty2"
+      lxc-start 19710308114732.973 DEBUG    lxc_conf - conf.c:lxc_setup_ttys:748 - bind mounted "/dev/pts/2" onto "/dev/tty3"
+      lxc-start 19710308114732.973 DEBUG    lxc_conf - conf.c:lxc_setup_ttys:748 - bind mounted "/dev/pts/3" onto "/dev/tty4"
+      lxc-start 19710308114732.973 INFO     lxc_conf - conf.c:lxc_setup_ttys:792 - Finished setting up 4 /dev/tty<N> device(s)
+      lxc-start 19710308114732.973 INFO     lxc_conf - conf.c:setup_personality:1479 - set personality to '0x8'
+      lxc-start 19710308114732.973 DEBUG    lxc_conf - conf.c:setup_caps:2402 - drop capability 'mac_admin' (33)
+      lxc-start 19710308114732.973 DEBUG    lxc_conf - conf.c:setup_caps:2402 - drop capability 'mac_override' (32)
+      lxc-start 19710308114732.973 DEBUG    lxc_conf - conf.c:setup_caps:2411 - capabilities have been setup
+      lxc-start 19710308114732.973 NOTICE   lxc_conf - conf.c:lxc_setup:3429 - Container "android" is set up
+      lxc-start 19710308114732.973 INFO     lxc_cgfsng - cgroups/cgfsng.c:__cg_unified_setup_limits:2730 - Setting limits on the unified cgroup hierarchy is not supported      lxc-start 19710308114732.973 TRACE    lxc_start - start.c:lxc_spawn:1661 - Set up cgroup device limits
+      lxc-start 19710308114732.973 DEBUG    lxc_start - start.c:lxc_spawn:1674 - Preserved cgroup namespace via fd 18
+      lxc-start 19710308114732.973 NOTICE   lxc_utils - utils.c:lxc_setgroups:2094 - Dropped additional groups
+      lxc-start 19710308114732.973 NOTICE   lxc_utils - utils.c:lxc_switch_uid_gid:2072 - Switched to gid 0
+      lxc-start 19710308114732.973 NOTICE   lxc_utils - utils.c:lxc_switch_uid_gid:2081 - Switched to uid 0
+      lxc-start 19710308114732.973 NOTICE   lxc_start - start.c:start:1888 - Exec'ing "/init"
+      lxc-start 19710308114732.977 TRACE    lxc_confile_utils - confile_utils.c:lxc_log_configured_netdevs:263 - index: 0
+      lxc-start 19710308114732.977 TRACE    lxc_confile_utils - confile_utils.c:lxc_log_configured_netdevs:264 - ifindex: 0
+      lxc-start 19710308114732.977 TRACE    lxc_confile_utils - confile_utils.c:lxc_log_configured_netdevs:295 - type: none
+      lxc-start 19710308114732.977 TRACE    lxc_confile_utils - confile_utils.c:lxc_log_configured_netdevs:302 - flags: none
+      lxc-start 19710308114732.977 TRACE    lxc_start - start.c:lxc_recv_ttys_from_child:1409 - Received pty with master fd 19 and slave fd 20 from parent
+      lxc-start 19710308114732.977 TRACE    lxc_start - start.c:lxc_recv_ttys_from_child:1409 - Received pty with master fd 21 and slave fd 22 from parent
+      lxc-start 19710308114732.978 TRACE    lxc_start - start.c:lxc_recv_ttys_from_child:1409 - Received pty with master fd 23 and slave fd 24 from parent
+      lxc-start 19710308114732.978 TRACE    lxc_start - start.c:lxc_recv_ttys_from_child:1409 - Received pty with master fd 25 and slave fd 26 from parent
+      lxc-start 19710308114732.978 TRACE    lxc_start - start.c:lxc_recv_ttys_from_child:1415 - Received 4 ttys from child
+      lxc-start 19710308114732.978 NOTICE   lxc_start - start.c:post_start:1899 - Started "/init" with pid "1465"
+      lxc-start 19710308114732.978 TRACE    lxc_start - start.c:lxc_serve_state_clients:398 - Set container state to RUNNING
+      lxc-start 19710308114732.978 TRACE    lxc_start - start.c:lxc_serve_state_clients:401 - No state clients registered
+      lxc-start 19710308114732.978 TRACE    lxc_start - start.c:lxc_poll:567 - Mainloop is ready
+      lxc-start 19710308114732.978 NOTICE   lxc_start - start.c:signal_handler:368 - Received 17 from pid 1463 instead of container init 1465
+      lxc-start 19710308114757.883 WARN     lxc_confile - confile.c:set_config_pivotdir:2346 - lxc.pivotdir is ignored.  It will soon become an error.
+      lxc-start 19710308114757.884 TRACE    lxc_commands - commands.c:lxc_cmd:293 - Connection refused - Command "get_init_pid" failed to connect command socket
+      lxc-start 19710308114757.884 TRACE    lxc_commands - commands.c:lxc_cmd:293 - Connection refused - Command "get_cgroup" failed to connect command socket
+      lxc-start 19710308114757.884 TRACE    lxc_commands - commands.c:lxc_cmd:293 - Connection refused - Command "get_state" failed to connect command socket
+      lxc-start 19710308114757.884 TRACE    lxc_commands - commands.c:lxc_cmd_init:1154 - Creating abstract unix socket "/var/lib/lxc/android/command"
+      lxc-start 19710308114757.884 TRACE    lxc_start - start.c:lxc_init_handler:711 - Unix domain socket 5 for command server is ready
+      lxc-start 19710308114757.884 WARN     lxc_start - start.c:lxc_check_inherited:263 - Inherited fd: 3.
+      lxc-start 19710308114757.884 INFO     lxc_lsm - lsm/lsm.c:lsm_init:47 - LSM security driver nop
+      lxc-start 19710308114757.884 TRACE    lxc_start - start.c:lxc_init:728 - Initialized LSM
+      lxc-start 19710308114757.884 TRACE    lxc_start - start.c:lxc_init:735 - Read seccomp policy
+      lxc-start 19710308114757.884 TRACE    lxc_start - start.c:lxc_serve_state_clients:398 - Set container state to STARTING
+      lxc-start 19710308114757.884 TRACE    lxc_start - start.c:lxc_serve_state_clients:401 - No state clients registered
+      lxc-start 19710308114757.884 TRACE    lxc_start - start.c:lxc_init:743 - set container state to "STARTING"
+      lxc-start 19710308114757.884 TRACE    lxc_start - start.c:lxc_init:796 - Set environment variables
+      lxc-start 19710308114757.884 INFO     lxc_conf - conf.c:run_script_argv:305 - Executing script "/var/lib/lxc/android/pre-start.sh" for container "android", config section "lxc".
+      lxc-start 19710308114757.890 TRACE    lxc_start - start.c:lxc_init:803 - Ran pre-start hooks
+      lxc-start 19710308114757.890 TRACE    lxc_start - start.c:setup_signal_fd:299 - Created signal file descriptor 6
+      lxc-start 19710308114757.890 TRACE    lxc_start - start.c:lxc_init:814 - Set up signal fd
+      lxc-start 19710308114757.891 DEBUG    console - console.c:lxc_console_peer_default:506 - process does not have a controlling terminal
+      lxc-start 19710308114757.891 TRACE    lxc_start - start.c:lxc_init:822 - Created console
+      lxc-start 19710308114757.891 TRACE    lxc_start - start.c:lxc_init:829 - Chowned console
+      lxc-start 19710308114757.891 INFO     lxc_start - start.c:lxc_init:831 - Container "android" is initialized
+      lxc-start 19710308114757.892 DEBUG    lxc_start - start.c:__lxc_start:1773 - Not dropping CAP_SYS_BOOT or watching utmp.
+      lxc-start 19710308114757.892 INFO     lxc_cgroup - cgroups/cgroup.c:cgroup_init:68 - cgroup driver cgroupfs-ng initing for android
+      lxc-start 19710308114757.892 TRACE    lxc_cgfsng - cgroups/cgfsng.c:cgfsng_init:1477 - Running with legacy cgroup layout
+      lxc-start 19710308114757.892 TRACE    lxc_cgfsng - cgroups/cgfsng.c:cg_legacy_filter_and_set_cpus:555 - No isolated cpus detected
+      lxc-start 19710308114757.892 DEBUG    lxc_cgfsng - cgroups/cgfsng.c:cg_legacy_handle_cpuset_hierarchy:741 - "cgroup.clone_children" was already set to "1"
+      lxc-start 19710308114757.893 INFO     lxc_start - start.c:lxc_spawn:1548 - Failed to pin the rootfs for container "android".
+      lxc-start 19710308114757.894 TRACE    lxc_start - start.c:lxc_spawn:1573 - Cloned child process 1464
+      lxc-start 19710308114757.894 INFO     lxc_start - start.c:lxc_spawn:1577 - Cloned CLONE_NEWNS.
+      lxc-start 19710308114757.894 INFO     lxc_start - start.c:lxc_spawn:1577 - Cloned CLONE_NEWPID.
+      lxc-start 19710308114757.894 INFO     lxc_start - start.c:lxc_spawn:1577 - Cloned CLONE_NEWUTS.
+      lxc-start 19710308114757.894 INFO     lxc_start - start.c:lxc_spawn:1577 - Cloned CLONE_NEWIPC.
+      lxc-start 19710308114757.894 INFO     lxc_start - start.c:lxc_spawn:1577 - Cloned CLONE_NEWCGROUP.
+      lxc-start 19710308114757.894 INFO     lxc_cgfsng - cgroups/cgfsng.c:__cg_unified_setup_limits:2730 - Setting limits on the unified cgroup hierarchy is not supported      lxc-start 19710308114757.894 INFO     lxc_start - start.c:do_start:1229 - Unshared CLONE_NEWCGROUP.
+      lxc-start 19710308114757.895 TRACE    lxc_conf - conf.c:remount_all_slave:3178 - Remounted all mount table entries as MS_SLAVE
+      lxc-start 19710308114757.897 DEBUG    storage - storage/storage.c:storage_query:237 - Detected rootfs type "dir"
+      lxc-start 19710308114757.898 DEBUG    lxc_conf - conf.c:lxc_setup_rootfs:1221 - Mounted rootfs "/var/lib/lxc/android/rootfs" onto "/usr/lib/arm-linux-gnueabihf/lxc" with options "(null)".
+      lxc-start 19710308114757.898 INFO     lxc_conf - conf.c:setup_utsname:630 - 'armhf' hostname has been setup
+      lxc-start 19710308114757.898 INFO     lxc_network - network.c:lxc_setup_network_in_child_namespaces:2973 - network has been setup
+      lxc-start 19710308114757.898 TRACE    lxc_network - network.c:lxc_network_send_name_and_ifindex_to_parent:3054 - Sent network device names and ifindeces to parent
+      lxc-start 19710308114757.898 DEBUG    lxc_conf - conf.c:mount_entry:1943 - Mounted "tmpfs" on "/usr/lib/arm-linux-gnueabihf/lxc/dev" with filesystem type "tmpfs"
+      lxc-start 19710308114757.898 DEBUG    lxc_conf - conf.c:mount_entry:1866 - Remounting "/dev/__properties__" on "/usr/lib/arm-linux-gnueabihf/lxc/dev/__properties__" to respect bind or remount options
+      lxc-start 19710308114757.898 DEBUG    lxc_conf - conf.c:mount_entry:1887 - Flags for "/dev/__properties__" were 4098, required extra flags are 2
+      lxc-start 19710308114757.898 DEBUG    lxc_conf - conf.c:mount_entry:1943 - Mounted "/dev/__properties__" on "/usr/lib/arm-linux-gnueabihf/lxc/dev/__properties__" with filesystem type "bind"
+      lxc-start 19710308114757.898 DEBUG    lxc_conf - conf.c:mount_entry:1866 - Remounting "/dev/socket" on "/usr/lib/arm-linux-gnueabihf/lxc/dev/socket" to respect bind or remount options
+      lxc-start 19710308114757.898 DEBUG    lxc_conf - conf.c:mount_entry:1887 - Flags for "/dev/socket" were 4098, required extra flags are 2
+      lxc-start 19710308114757.898 DEBUG    lxc_conf - conf.c:mount_entry:1943 - Mounted "/dev/socket" on "/usr/lib/arm-linux-gnueabihf/lxc/dev/socket" with filesystem type "bind"
+      lxc-start 19710308114757.899 DEBUG    lxc_conf - conf.c:mount_entry:1943 - Mounted "proc" on "/usr/lib/arm-linux-gnueabihf/lxc/proc" with filesystem type "proc"
+      lxc-start 19710308114757.899 DEBUG    lxc_conf - conf.c:mount_entry:1943 - Mounted "sys" on "/usr/lib/arm-linux-gnueabihf/lxc/sys" with filesystem type "sysfs"
+      lxc-start 19710308114757.899 DEBUG    lxc_conf - conf.c:mount_entry:1866 - Remounting "/android/data" on "/usr/lib/arm-linux-gnueabihf/lxc/data" to respect bind or remount options
+      lxc-start 19710308114757.899 DEBUG    lxc_conf - conf.c:mount_entry:1887 - Flags for "/android/data" were 4096, required extra flags are 0
+      lxc-start 19710308114757.899 DEBUG    lxc_conf - conf.c:mount_entry:1897 - Mountflags already were 4096, skipping remount
+      lxc-start 19710308114757.899 DEBUG    lxc_conf - conf.c:mount_entry:1943 - Mounted "/android/data" on "/usr/lib/arm-linux-gnueabihf/lxc/data" with filesystem type "bind"
+      lxc-start 19710308114757.899 DEBUG    lxc_conf - conf.c:mount_entry:1866 - Remounting "/vendor" on "/usr/lib/arm-linux-gnueabihf/lxc/vendor" to respect bind or remount options
+      lxc-start 19710308114757.899 DEBUG    lxc_conf - conf.c:mount_entry:1887 - Flags for "/vendor" were 4097, required extra flags are 1
+      lxc-start 19710308114757.899 DEBUG    lxc_conf - conf.c:mount_entry:1943 - Mounted "/vendor" on "/usr/lib/arm-linux-gnueabihf/lxc/vendor" with filesystem type "bind"
+      lxc-start 19710308114757.899 DEBUG    lxc_conf - conf.c:mount_entry:1866 - Remounting "/mnt" on "/usr/lib/arm-linux-gnueabihf/lxc/mnt" to respect bind or remount options
+      lxc-start 19710308114757.899 DEBUG    lxc_conf - conf.c:mount_entry:1887 - Flags for "/mnt" were 4097, required extra flags are 1
+      lxc-start 19710308114757.899 DEBUG    lxc_conf - conf.c:mount_entry:1943 - Mounted "/mnt" on "/usr/lib/arm-linux-gnueabihf/lxc/mnt" with filesystem type "bind"
+      lxc-start 19710308114757.899 DEBUG    lxc_conf - conf.c:mount_entry:1866 - Remounting "/android/efs" on "/usr/lib/arm-linux-gnueabihf/lxc/efs" to respect bind or remount options
+      lxc-start 19710308114757.899 DEBUG    lxc_conf - conf.c:mount_entry:1887 - Flags for "/android/efs" were 4097, required extra flags are 1
+      lxc-start 19710308114757.899 DEBUG    lxc_conf - conf.c:mount_entry:1943 - Mounted "/android/efs" on "/usr/lib/arm-linux-gnueabihf/lxc/efs" with filesystem type "bind"
+      lxc-start 19710308114757.899 INFO     lxc_conf - conf.c:mount_file_entries:2238 - Set up mount entries
+      lxc-start 19710308114757.899 DEBUG    lxc_conf - conf.c:lxc_setup_ttydir_console:1560 - Created directory for console and tty devices at "/usr/lib/arm-linux-gnueabihf/lxc/dev/lxc"
+      lxc-start 19710308114757.899 DEBUG    lxc_conf - conf.c:lxc_setup_ttydir_console:1646 - mounted "/dev/pts/3" onto "/usr/lib/arm-linux-gnueabihf/lxc/dev/lxc/console"      lxc-start 19710308114757.899 DEBUG    lxc_conf - conf.c:lxc_setup_ttydir_console:1666 - console has been setup under "lxc/console" and symlinked to "/usr/lib/arm-linux-gnueabihf/lxc/dev/console"
+      lxc-start 19710308114757.899 INFO     lxc_utils - utils.c:lxc_mount_proc_if_needed:1704 - I am 1, /proc/self points to "1"
+      lxc-start 19710308114757.900 DEBUG    lxc_conf - conf.c:setup_rootfs_pivot_root:987 - pivot_root syscall to '/usr/lib/arm-linux-gnueabihf/lxc' successful
+      lxc-start 19710308114757.900 DEBUG    lxc_conf - conf.c:setup_pivot_root:1338 - finished pivot root
+      lxc-start 19710308114757.901 DEBUG    lxc_conf - conf.c:lxc_setup_devpts:1418 - mount new devpts instance with options "gid=5,newinstance,ptmxmode=0666,mode=0620,max=1024"
+      lxc-start 19710308114757.901 DEBUG    lxc_conf - conf.c:lxc_setup_devpts:1438 - created dummy "/dev/ptmx" file as bind mount target
+      lxc-start 19710308114757.901 DEBUG    lxc_conf - conf.c:lxc_setup_devpts:1443 - bind mounted "/dev/pts/ptmx" to "/dev/ptmx"
+      lxc-start 19710308114757.901 DEBUG    lxc_conf - conf.c:lxc_allocate_ttys:824 - allocated pty "/dev/pts/0" with master fd 10 and slave fd 13
+      lxc-start 19710308114757.901 DEBUG    lxc_conf - conf.c:lxc_allocate_ttys:824 - allocated pty "/dev/pts/1" with master fd 14 and slave fd 15
+      lxc-start 19710308114757.901 DEBUG    lxc_conf - conf.c:lxc_allocate_ttys:824 - allocated pty "/dev/pts/2" with master fd 16 and slave fd 17
+      lxc-start 19710308114757.901 DEBUG    lxc_conf - conf.c:lxc_allocate_ttys:824 - allocated pty "/dev/pts/3" with master fd 18 and slave fd 19
+      lxc-start 19710308114757.901 INFO     lxc_conf - conf.c:lxc_allocate_ttys:844 - finished allocating 4 pts devices
+      lxc-start 19710308114757.901 TRACE    lxc_conf - conf.c:lxc_send_ttys_to_parent:887 - Send pty "/dev/pts/0" with master fd 10 and slave fd 13 to parent
+      lxc-start 19710308114757.901 TRACE    lxc_conf - conf.c:lxc_send_ttys_to_parent:887 - Send pty "/dev/pts/1" with master fd 14 and slave fd 15 to parent
+      lxc-start 19710308114757.901 TRACE    lxc_conf - conf.c:lxc_send_ttys_to_parent:887 - Send pty "/dev/pts/2" with master fd 16 and slave fd 17 to parent
+      lxc-start 19710308114757.901 TRACE    lxc_conf - conf.c:lxc_send_ttys_to_parent:887 - Send pty "/dev/pts/3" with master fd 18 and slave fd 19 to parent
+      lxc-start 19710308114757.901 TRACE    lxc_conf - conf.c:lxc_send_ttys_to_parent:894 - Sent 4 ttys to parent
+      lxc-start 19710308114757.901 DEBUG    lxc_conf - conf.c:lxc_setup_ttys:748 - bind mounted "/dev/pts/0" onto "/dev/tty1"
+      lxc-start 19710308114757.901 DEBUG    lxc_conf - conf.c:lxc_setup_ttys:748 - bind mounted "/dev/pts/1" onto "/dev/tty2"
+      lxc-start 19710308114757.901 DEBUG    lxc_conf - conf.c:lxc_setup_ttys:748 - bind mounted "/dev/pts/2" onto "/dev/tty3"
+      lxc-start 19710308114757.901 DEBUG    lxc_conf - conf.c:lxc_setup_ttys:748 - bind mounted "/dev/pts/3" onto "/dev/tty4"
+      lxc-start 19710308114757.901 INFO     lxc_conf - conf.c:lxc_setup_ttys:792 - Finished setting up 4 /dev/tty<N> device(s)
+      lxc-start 19710308114757.901 INFO     lxc_conf - conf.c:setup_personality:1479 - set personality to '0x8'
+      lxc-start 19710308114757.901 DEBUG    lxc_conf - conf.c:setup_caps:2402 - drop capability 'mac_admin' (33)
+      lxc-start 19710308114757.902 DEBUG    lxc_conf - conf.c:setup_caps:2402 - drop capability 'mac_override' (32)
+      lxc-start 19710308114757.902 DEBUG    lxc_conf - conf.c:setup_caps:2411 - capabilities have been setup
+      lxc-start 19710308114757.902 NOTICE   lxc_conf - conf.c:lxc_setup:3429 - Container "android" is set up
+      lxc-start 19710308114757.902 INFO     lxc_cgfsng - cgroups/cgfsng.c:__cg_unified_setup_limits:2730 - Setting limits on the unified cgroup hierarchy is not supported      lxc-start 19710308114757.902 TRACE    lxc_start - start.c:lxc_spawn:1661 - Set up cgroup device limits
+      lxc-start 19710308114757.902 DEBUG    lxc_start - start.c:lxc_spawn:1674 - Preserved cgroup namespace via fd 18
+      lxc-start 19710308114757.902 NOTICE   lxc_utils - utils.c:lxc_setgroups:2094 - Dropped additional groups
+      lxc-start 19710308114757.902 NOTICE   lxc_utils - utils.c:lxc_switch_uid_gid:2072 - Switched to gid 0
+      lxc-start 19710308114757.902 NOTICE   lxc_utils - utils.c:lxc_switch_uid_gid:2081 - Switched to uid 0
+      lxc-start 19710308114757.902 NOTICE   lxc_start - start.c:start:1888 - Exec'ing "/init"
+      lxc-start 19710308114757.906 TRACE    lxc_confile_utils - confile_utils.c:lxc_log_configured_netdevs:263 - index: 0
+      lxc-start 19710308114757.906 TRACE    lxc_confile_utils - confile_utils.c:lxc_log_configured_netdevs:264 - ifindex: 0
+      lxc-start 19710308114757.906 TRACE    lxc_confile_utils - confile_utils.c:lxc_log_configured_netdevs:295 - type: none
+      lxc-start 19710308114757.906 TRACE    lxc_confile_utils - confile_utils.c:lxc_log_configured_netdevs:302 - flags: none
+      lxc-start 19710308114757.906 TRACE    lxc_start - start.c:lxc_recv_ttys_from_child:1409 - Received pty with master fd 19 and slave fd 20 from parent
+      lxc-start 19710308114757.906 TRACE    lxc_start - start.c:lxc_recv_ttys_from_child:1409 - Received pty with master fd 21 and slave fd 22 from parent
+      lxc-start 19710308114757.906 TRACE    lxc_start - start.c:lxc_recv_ttys_from_child:1409 - Received pty with master fd 23 and slave fd 24 from parent
+      lxc-start 19710308114757.906 TRACE    lxc_start - start.c:lxc_recv_ttys_from_child:1409 - Received pty with master fd 25 and slave fd 26 from parent
+      lxc-start 19710308114757.906 TRACE    lxc_start - start.c:lxc_recv_ttys_from_child:1415 - Received 4 ttys from child
+      lxc-start 19710308114757.906 NOTICE   lxc_start - start.c:post_start:1899 - Started "/init" with pid "1464"
+      lxc-start 19710308114757.906 TRACE    lxc_start - start.c:lxc_serve_state_clients:398 - Set container state to RUNNING
+      lxc-start 19710308114757.906 TRACE    lxc_start - start.c:lxc_serve_state_clients:401 - No state clients registered
+      lxc-start 19710308114757.906 TRACE    lxc_start - start.c:lxc_poll:567 - Mainloop is ready
